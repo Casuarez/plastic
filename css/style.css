@@ -758,6 +758,22 @@ img.full-width {
 .three__blocks .col-md-4 .seper {
 	margin: 10px auto;
 }
+
+
+.three__blocks .col-md-4 .papelera {
+	background: url('../images/icons/papelera1.png') no-repeat center top;
+	padding-top: 45px;
+	line-height: 24px;
+	padding-bottom: 0px;
+	display: block;
+}
+.three__blocks .col-md-4 .seguridad {
+	background: url('../images/icons/seguridad.png') no-repeat center top;
+	padding-top: 45px;
+	line-height: 24px;
+	padding-bottom: 0px;
+	display: block;
+}
 .three__blocks .col-md-4 .bolsa {
 	background: url('../images/icons/bolsa2.png') no-repeat center top;
 	padding-top: 45px;
@@ -765,27 +781,17 @@ img.full-width {
 	padding-bottom: 0px;
 	display: block;
 }
-.three__blocks .col-md-4 h3 {
-	background: url('../images/icons/papelera1.png') no-repeat center top;
-	padding-top: 45px;
-	line-height: 24px;
-	padding-bottom: 0px;
-	display: block;
-}
-.three__blocks .col-md-4.middle h3 {
-	background: url('../images/icons/ico2.png') no-repeat center top;
-}
 .three__blocks .col-md-4:last-child h3 {
 	background: url('../images/icons/ico3.png') no-repeat center top;
 }
-.three__blocks .col-md-4 h3:hover {
+.three__blocks .col-md-4 .papelera:hover {
 	background: url('../images/icons/papelera.png') no-repeat center top;
 }
 .three__blocks .col-md-4 .bolsa:hover {
 	background: url('../images/icons/bolsa1.png') no-repeat center top;
 }
-.three__blocks .col-md-4.middle h3:hover {
-	background: url('../images/icons/ico2_a.png') no-repeat center top;
+.three__blocks .col-md-4 .seguridad:hover {
+	background: url('../images/icons/seguridad1.png') no-repeat center top;
 }
 .three__blocks .col-md-4:last-child h3:hover {
 	background: url('../images/icons/ico3_a.png') no-repeat center top;
