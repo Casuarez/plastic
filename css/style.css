@@ -759,7 +759,7 @@ img.full-width {
 	margin: 10px auto;
 }
 .three__blocks .col-md-4 h3 {
-	background: url('../images/icons/papelera.png') no-repeat center top;
+	background: url('../images/icons/papelera1.png') no-repeat center top;
 	padding-top: 45px;
 	line-height: 24px;
 	padding-bottom: 0px;
@@ -772,7 +772,7 @@ img.full-width {
 	background: url('../images/icons/ico3.png') no-repeat center top;
 }
 .three__blocks .col-md-4 h3:hover {
-	background: url('../images/icons/ico1_a.png') no-repeat center top;
+	background: url('../images/icons/papelera.png') no-repeat center top;
 }
 .three__blocks .col-md-4.middle h3:hover {
 	background: url('../images/icons/ico2_a.png') no-repeat center top;
