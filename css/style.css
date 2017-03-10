@@ -787,6 +787,13 @@ img.full-width {
 	padding-bottom: 0px;
 	display: block;
 }
+.three__blocks .col-md-4 .contenedor {
+	background: url('../images/icons/contenedor.png') no-repeat center top;
+	padding-top: 45px;
+	line-height: 24px;
+	padding-bottom: 0px;
+	display: block;
+}
 .three__blocks .col-md-4:last-child h3 {
 	background: url('../images/icons/ico3.png') no-repeat center top;
 }
@@ -801,6 +808,9 @@ img.full-width {
 }
 .three__blocks .col-md-4 .ferreteria:hover {
 	background: url('../images/icons/ferreteria1.png') no-repeat center top;
+}
+.three__blocks .col-md-4 .contenedor:hover {
+	background: url('../images/icons/contenedor1.png') no-repeat center top;
 }
 .three__blocks .col-md-4:last-child h3:hover {
 	background: url('../images/icons/ico3_a.png') no-repeat center top;
