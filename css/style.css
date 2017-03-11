@@ -794,6 +794,20 @@ img.full-width {
 	padding-bottom: 0px;
 	display: block;
 }
+.three__blocks .col-md-4 .cupula {
+	background: url('../images/icons/cupula.png') no-repeat center top;
+	padding-top: 45px;
+	line-height: 24px;
+	padding-bottom: 0px;
+	display: block;
+}
+.three__blocks .col-md-4 .utiles {
+	background: url('../images/icons/utiles.png') no-repeat center top;
+	padding-top: 45px;
+	line-height: 24px;
+	padding-bottom: 0px;
+	display: block;
+}
 .three__blocks .col-md-4:last-child h3 {
 	background: url('../images/icons/ico3.png') no-repeat center top;
 }
@@ -811,6 +825,12 @@ img.full-width {
 }
 .three__blocks .col-md-4 .contenedor:hover {
 	background: url('../images/icons/contenedor1.png') no-repeat center top;
+}
+.three__blocks .col-md-4 .cupula:hover {
+	background: url('../images/icons/cupula1.png') no-repeat center top;
+}
+.three__blocks .col-md-4 .utiles:hover {
+	background: url('../images/icons/utiles1.png') no-repeat center top;
 }
 .three__blocks .col-md-4:last-child h3:hover {
 	background: url('../images/icons/ico3_a.png') no-repeat center top;
