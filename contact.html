@@ -64,7 +64,7 @@
           <form role="form" id="contact-form" name="contact-form" method="post" action="" class="contact-form">
             <div class="form-group col-md-6">
               <label class="sr-only" for="exampleInputEmail1">Your Name: *</label>
-              <input required type="text" class="form-control" id="name" name="name" placeholder="Your Name: *">
+              <input required type="text" class="form-control" id="name" name="name" placeholder="Tu Nombre: *">
             </div>
             <div class="form-group col-md-6">
               <label class="sr-only" for="exampleInputEmail1">Email: *</label>
@@ -73,10 +73,10 @@
             <div class="clearfix"></div>
             <div class="form-group">
               <label class="sr-only" for="exampleInputEmail1">Subject:</label>
-              <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject:">
+              <input type="text" class="form-control" id="subject" name="Asunto" placeholder="Subject:">
             </div>
             <div class="form-group">
-              <textarea required class="form-control" id="message" name="message" rows="5" placeholder="Message: *"></textarea>
+              <textarea required class="form-control" id="message" name="message" rows="5" placeholder="mensaje: *"></textarea>
             </div>
             <input id="submit-button" type="submit" class="btn btn-lg btn-info" value="Enviar">
           </form>
@@ -86,31 +86,35 @@
           <hr>
           <p><!-- Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
           <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. -->text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text </p>
-          <p class="black-text"><span class="orange">Dirección:</span> text text text text </p>
-          <p class="black-text"><span class="orange">Telefono:</span> 866-123-4555</p>
-          <p class="black-text"><span class="orange">Fax:</span> 866-111-222-3455</p>
+          <p class="black-text"><span class="orange">Dirección:</span> Av. General garzon 755 dpto46;<br />
+          calle las valvulas mz e2 lt 3<br />
+          parque industrial de ancon </p>
+          <p class="black-text"><span class="orange">Telefono:</span> 968 223 189</p>
+          
            </div>
       </div>
     </div>
   </section>
 </section>
-<!-- <footer>
+<footer>
   <div class="container">
     <div class="row">
       <div class="col-md-3">
-        <h3>About</h3>
-        <p>We strive to deliver a level of service that exceeds the expectations of our customers. <br />
+        <h3>Nosotros</h3>
+        <p>Bioplastic 
+            Una empresa ecológica  que toma decisiones en torno a sus operaciones,  al comprar productos y al estilo de vida de la empresa beneficiando las ganancias, la gente y al planeta. <br />
           <br />
-          If you have any questions about our products or services, please do not hesitate to contact us. We have friendly, knowledgeable representatives available seven days a week to assist you.</p>
+          Bioplastic   ayuda a  incorporar productos ecológicos y fomentar el cuidado al medio amnbiente.
+          </p>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3" style="visibility: hidden;">
         <h3>Tweets</h3>
         <p><span>Tweet</span> <a href="#">@You</a><br />
           Etiam egestas, ipsum posuere accumsan sollicitudin, nulla mauris volutpat sem, sit amet rutrum risus. </p>
         <p><span>Tweet</span> <a href="#">@You</a><br />
           Quisque porta tellus vitae adipiscing molestie. Mauris et lacus blandit, malesuada.</p>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3" style="visibility: hidden;">
         <h3>Mailing list</h3>
         <p>Subscribe to our mailing list for offers, news updates and more!</p>
         <br />
@@ -124,21 +128,21 @@
       </div>
       <div class="col-md-3">
         <h3>Social</h3>
-        <p>123 Business Way<br />
-          San Francisco, CA 94108<br />
-          USA<br />
+        <p>Av. General garzon 755 dpto46;<br />
+          calle las valvulas mz e2 lt 3<br />
+          parque industrial de ancon<br />
           <br />
-          Phone: (888) 123-4567<br />
-          Fax: (887) 123-4567<br />
+          Telefono: 968 223 189<br />
+          <br />
           <br />
         </p>
-        <div class="social__icons"> <a href="#" class="socialicon socialicon-twitter"></a> <a href="#" class="socialicon socialicon-facebook"></a> <a href="#" class="socialicon socialicon-google"></a> <a href="#" class="socialicon socialicon-mail"></a> </div>
+
+        <div class="social__icons"> <!-- <a href="#" class="socialicon socialicon-twitter"> --></a> <a target="_blank" href="https://www.facebook.com/ecosistemas.rosales.sac/" class="socialicon socialicon-facebook"></a> <a href="#" class="socialicon socialicon-google"></a> <a href="#" class="socialicon socialicon-mail"></a>  </div>
       </div>
     </div>
   </div>
-</footer> -->
-<p class="text-center copyright">&copy; Copyright ABC Company. All Rights Reserved.</p>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+</footer>
+<p class="text-center copyright" style="text-transform: none">&copy; Derechos de Página reservados por www.bioplasticrrr.com</p><!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script type="text/javascript" src="js/jquery.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.min.js"></script> 
@@ -157,10 +161,10 @@
                                
 			   },
                            complete: function(){
-                                $('#feedback').append('<p>Thank you for sending us a message. Our specialists will contact you as soon as possible.</p><p>Your message details are:</p>\n\
+                                $('#feedback').append('<p>Gracias por enviarnos un mensaje.Nuestros especialistas se pondran en contacto con usted tan pronto como sea posible.</p><p>Your message details are:</p>\n\
                                 <ul>\n\
                                     <li>Name: <b>' + data1 + '</b></li>\n\
-                                    <li>Email: <b>' + data3 + '</b></li>\n\
+                                    <li>Email: <b>' + data3 + '</br></li>\n\
                                     <li>Subject: <b>' + data2 + '</b></li>\n\
                                     <li>Message: <b>' + data4 + '</b></li>\n\
                                 </ul>\n\
