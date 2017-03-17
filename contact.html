@@ -50,7 +50,7 @@
     <div class="container text-center">
       <h2 class="page__title">Contactanos</h2>
       <span class="sep"></span>
-      <p class="smaller">text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text .</p>
+      <p class="smaller" style="visibility: hidden;">text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text .</p>
     </div>
   </div>
   <section class="contact-us">
@@ -60,7 +60,7 @@
         <div class="col-md-8">
           <h3>Envianos un mensaje</h3>
           <hr>
-          <p><!-- Our friendly customer service representatives are committed to answering all your questions and meeting any need you may have. We would love to hear from you! Please fill out the form below so we may assist you. -->text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text </p>
+          <p style="visibility: hidden;"><!-- Our friendly customer service representatives are committed to answering all your questions and meeting any need you may have. We would love to hear from you! Please fill out the form below so we may assist you. -->text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text </p>
           <br />
           <p id="feedback"></p>
           <form role="form" id="contact-form" name="contact-form" method="post" action="" class="contact-form">
@@ -75,7 +75,7 @@
             <div class="clearfix"></div>
             <div class="form-group">
               <label class="sr-only" for="exampleInputEmail1">Subject:</label>
-              <input type="text" class="form-control" id="subject" name="Asunto" placeholder="Subject:">
+              <input type="text" class="form-control" id="subject" name="Asunto" placeholder="Asunto:">
             </div>
             <div class="form-group">
               <textarea required class="form-control" id="message" name="message" rows="5" placeholder="mensaje: *"></textarea>
@@ -86,12 +86,13 @@
         <div class="col-md-4">
           <h3>Pongase en contacto con nosotros</h3>
           <hr>
-          <p><!-- Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
-          <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. -->text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text </p>
+          <!-- <p >Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+          <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text </p> -->
           <p class="black-text"><span class="orange">Dirección:</span> Av. General garzon 755 dpto46;<br />
           calle las valvulas mz e2 lt 3<br />
           parque industrial de ancon </p>
           <p class="black-text"><span class="orange">Telefono:</span> 968 223 189</p>
+          <p class="black-text"><span class="orange">Email:</span> ventas@bioplasticrrr.com<br>informes@bioplasticrrr.com</p>
           
            </div>
       </div>
@@ -134,8 +135,10 @@
           calle las valvulas mz e2 lt 3<br />
           parque industrial de ancon<br />
           <br />
-          Telefono: 968 223 189<br />
-          <br />
+          TELEF. 5372210; CEL. 968223189; RPM # 968223189<br />
+          Telf. (511) 2310860; movistar RPM: #999948634, RPM: #999948634
+          <br /><br>
+          Email: ventas@bioplasticrrr.com<br>informes@bioplasticrrr.com
           <br />
         </p>
 
@@ -163,15 +166,15 @@
                                
 			   },
                            complete: function(){
-                                $('#feedback').append('<p>Gracias por enviarnos un mensaje.Nuestros especialistas se pondran en contacto con usted tan pronto como sea posible.</p><p>Your message details are:</p>\n\
+                                $('#feedback').append('<p>Gracias por enviarnos un mensaje.Nuestros especialistas se pondran en contacto con usted tan pronto como sea posible.</p><p>Los detalles de tu mensaje son:</p>\n\
                                 <ul>\n\
-                                    <li>Name: <b>' + data1 + '</b></li>\n\
+                                    <li>Nombre: <b>' + data1 + '</b></li>\n\
                                     <li>Email: <b>' + data3 + '</br></li>\n\
-                                    <li>Subject: <b>' + data2 + '</b></li>\n\
-                                    <li>Message: <b>' + data4 + '</b></li>\n\
+                                    <li>Asunto: <b>' + data2 + '</b></li>\n\
+                                    <li>Mensaje: <b>' + data4 + '</b></li>\n\
                                 </ul>\n\
-                                <p>If you want to change your information press the button:\n\
-                                <p><a href="#" id="send-more" class="btn btn-lg btn-info">edit info</a></p>');
+                                <p>Si quieres cambiar tu información, presiona este botón:\n\
+                                <p><a href="#" id="send-more" class="btn btn-lg btn-info">Editar</a></p>');
                                 $('#contact-form').slideUp();
                                 $('#send-more').click(function(e){
                                     e.preventDefault()
